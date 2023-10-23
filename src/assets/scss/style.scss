@@ -1,0 +1,245 @@
+.map {
+  width: 100%;
+  height: 900px;
+}
+.sample-marker {
+  width: 11px;
+  height: 11px;
+  margin: 0px 2px 0px 2px;
+}
+.info-sample {
+  // font-weight: ld;
+  // font-style: oblique;
+}
+.line-sample {
+  width: 12px !important;
+  height: 12px;
+  margin: -3px 2px 0px 2px;
+}
+.municipality-limit {
+  border-bottom: 5px solid #61FF33;
+}
+.division-limit {
+  border-bottom: 5px solid #64d9ef;
+  //border-bottom 5px solid rgb(108;)
+}
+.community-limit {
+  border-bottom: 5px solid rgb(1, 204, 40);
+}
+.medium-voltage {
+  border-bottom: 5px solid red;
+}
+.low-voltage {
+  border-bottom: 5px solid blue;
+}
+.sample-low-voltage {
+  border-bottom: 5px solid rgb(247, 163, 8);
+}
+.neutral_mv {
+  width: 12px;
+  height: 12px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: rgb(247, 163, 8);
+  border: 1px solid rgb(0, 0, 0);
+}
+.neutral_mv_info{
+  width: 150px;
+  height: 18px;
+  -moz-border-radius: 2px !important;
+  -webkit-border-radius: 2px !important;
+  border-radius: 2px !important;
+  background: rgba(247, 163, 8, 0.812);
+  border: 1px solid rgb(0, 0, 0);
+  color:#000000;
+  padding-left: 2px;
+}
+.label-map-municipality {
+  font-size: 12px;
+  margin-left: 13px;
+  -webkit-text-stroke: 0.4px black;
+  color: rgb(156, 253, 11);
+  text-shadow: 0px 0px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+  width: max-content;
+  font-weight: bold;
+}
+.label-map-municipality img {
+  width: 20px;
+  height: 20px;
+}
+.label-map-division {
+  font-size: 12px;
+  margin-left: 13px;
+  -webkit-text-stroke: 0.4px black;
+  color: rgb(9, 203, 247);
+  text-shadow: 0px 0px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+  width: max-content;
+  font-weight: bold;
+}
+.label-map-division img {
+  width: 20px;
+  height: 20px;
+}
+.label-map-community {
+  font-size: 12px;
+  margin-left: 13px;
+  -webkit-text-stroke: 0.07px black;
+  color: rgb(31, 210, 0);
+  text-shadow: 0px 0px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+  width: max-content;
+  font-weight: bold;
+}
+.label-map-community img {
+  width: 20px;
+  height: 20px;
+}
+.label-map-house {
+  font-size: 12px;
+  margin-left: 13px;
+  margin-top: -5px;
+  -webkit-text-stroke: 0.5px black;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.label-info-mv {
+  font-size: 11px;
+  -webkit-text-stroke: 0.1px black;
+  color: #f3ff05;
+  text-shadow: 0px 0px 0 #000000, -0.7px -0.7px 0 #000000,
+    0.7px -0.7px 0 #000000, -0.7px 0.7px 0 #000000, 0.7px 0.7px 0 #000000;
+  width: max-content;
+  font-weight: bold;
+  margin-left: -50%;
+  opacity: 1;
+}
+
+.label-info-lv {
+  font-size: 11px;
+  -webkit-text-stroke: 0.1px black;
+  color: #08E1FA;
+  text-shadow: 0px 0px 0 #000000, -0.7px -0.7px 0 #000000,
+    0.7px -0.7px 0 #000000, -0.7px 0.7px 0 #000000, 0.7px 0.7px 0 #000000;
+  width: max-content;
+  font-weight: bold;
+  margin-left: -50%;
+  opacity: 1;
+}
+
+.leaflet-marker-icon {
+  background: transparent !important;
+  border: 0px solid #67a;
+  width: auto !important;
+}
+
+.trafo-info {
+  height: max-content;
+  //background: #ede618;
+  //background: #fff700f5;
+  color: black;
+  padding: 0px 2px;
+  //margin-left: 10px;
+  border-radius: 3px;
+  width: max-content;
+  opacity: 0.8;
+  //border: 1px solid black;
+  border: 1px solid rgb(47, 47, 47);
+
+}
+.trafo-info p{
+  margin-bottom: 0rem;
+}
+.trafo-info img {
+  width: 14px;
+  height: 14px;
+  margin: -7px 0px 0px -2px;  
+}
+.trafo-info hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.trafo-success {
+  background: rgb(115, 234, 82);
+}
+.trafo-warning {
+  background: rgb(230, 233, 79);
+}
+.trafo-danger {
+  background: rgb(234, 134, 134);
+  //color: #ffc4c4;
+}
+.trafo-inactive {
+  background: #c6c6c6;
+}
+.section-mapcontrol {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+}
+.section-graph-inmap {
+  background-color: rgba(255, 255, 255, 0.803);
+  border-radius: 3px;
+  width: 450px;
+}
+
+.tab-content {
+  height: 100%;
+  overflow-y: scroll;
+}
+.custom-control {
+  padding-left: 2px !important;
+}
+.chip {
+  font-size: 10px !important;
+}
+.leaflet-control-scale {
+  font-weight: bold;
+}
+.leaflet-control-scale-line {
+  background: rgba(255, 255, 255, 0.7);
+}
+.leaflet-rigth {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+// modificaciones container
+.container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.c-main {
+  padding-top: 0rem !important;
+}
+.view-tree {
+  border: 1px black solid;
+  max-width: auto;
+}
+.rd3t-tree-container {
+  height: 300px !important;
+}
+.table-scroll {
+  height: 500px;
+}
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+// .NavHeader .nav-link {
+//   padding: 1rem 1rem;
+// }
+// modificar react coreui
+
+.nav-tabs .nav-link {
+  padding: 7px 7px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+// added styles
+table thead tr th {
+  font-weight: bold;
+}
+.form-control{
+  color: #000000!important;
+}

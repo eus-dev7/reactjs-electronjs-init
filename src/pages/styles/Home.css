@@ -1,0 +1,38 @@
+.Home {
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    background-repeat: repeat;
+  
+    color: #ffffff;
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  .Home__col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tab-content {
+    height: 95% !important;
+  }
+  .leaflet-control-attribution a {
+    display: none;
+  }
+  
+  .TableBranch {
+    margin-bottom: 0px !important;
+  }
+  .HiddeElement {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    .Home__col {
+      align-items: flex-start;
+    }
+  }
+  .chk-state {
+    margin-right: 2px;
+  }
